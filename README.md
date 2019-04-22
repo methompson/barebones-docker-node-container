@@ -12,4 +12,11 @@ Installation is simple.
 ..* `docker-compose up`
 6. Navigate to localhost:3000 in your browser to view the server.
 
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
 By Default, the only things installed on the system are Node.js and NPM. Future updates will have different packages. You can navigate inside of the container with `docker exec -it node bash`. Inside of bash, you can use NPM to initialize a new project and install any packages you need.
