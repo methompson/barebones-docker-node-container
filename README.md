@@ -1,6 +1,8 @@
 # barebones-docker-node-container
 A barebones Node.js server in a Docker Container
 
+Why? I don’t like installing Node and NPM on my local laptop, but I regularly need to work with it. This barebones setup allows me to easily start a Node.js instance without any of the baggage. I can then grab NPM packages by exec’ing into the container.
+
 Installation is simple.
 
 1. Install Docker on to your system [Link](https://docs.docker.com/v17.12/install/)
