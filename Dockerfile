@@ -4,3 +4,5 @@ RUN apt update
 RUN apt install nodejs npm -y
 
 RUN mkdir -p /srv/app
+
+WORKDIR /srv/app
