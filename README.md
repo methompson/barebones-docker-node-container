@@ -10,6 +10,8 @@ Installation is simple.
 3. In your terminal, navigate into the folder.
 4. Use docker-compose to build the image.
   * `docker-compose build`
+  * use the optional 'pull' parameter in case you get image issues
+  * `docker-compose build --pull`
 5. Use docker-compose to start the image.
   * `docker-compose up`
 6. Navigate to localhost:3000 in your browser to view the server.
