@@ -4,7 +4,8 @@ services:
         build: .
         ports:
             - '3000:3000'
+            - '9229:9229'
         volumes:
             - ./app:/srv/app
         container_name: node
-        command: node /srv/app/app.js
+        command: node --inspect=0.0.0.0:9229 /srv/app/app.js
